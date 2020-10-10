@@ -1,0 +1,58 @@
+//out:false,main:index.less
+
+* {
+  box-sizing: border-box;
+}
+
+html,body,h1,h2,h3,h4,h5,ul,input,a,p,span,dl,dt,dd{
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.clearfix:before,.clearfix:after {
+  content:"";
+  display:table; 
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+   *zoom:1;
+}   
+
+.wrapper {
+  position: relative;
+  // overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sprites {
+  background-size: 64px 128px;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  // background-size: cover;
+}
+
+.sprites2 {
+  background-size: 128px 128px;
+  background-image: url(../images/sprite2.png);
+  background-repeat: no-repeat;
+}
